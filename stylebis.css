@@ -1,0 +1,83 @@
+body {
+   font-family: 'Poppins', Arial, sans-serif;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f9; 
+}
+
+.first-container, .second-container, .third-container, .social-container {
+   border: none;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 20px auto;
+   max-width: 800px;
+   background-color: #ffffff;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.header, .social-container h3 {
+   font-size: 2.5em;
+   color: #324075;
+}
+
+.intro-text, .second-container h2, .third-container h2 {
+   margin: 20px;
+   color: #555;
+}
+
+.profile-image {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 4px solid #324075;
+   display: inline-block;
+   margin: 20px;
+   object-fit: cover;
+}
+
+.first-button, .second-button {
+   font-weight: 500;
+   padding: 15px 30px;
+   background-color: #324075;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   margin: 20px;
+   transition: all 0.3s ease;
+}
+
+.first-button:hover, .second-button:hover {
+   background-color: #76b6ec;
+   color: #ffffff;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.second-container p, .third-container p {
+   font-size: 1.2em;
+   color: #666;
+}
+
+.highlight {
+   background-color: #5a78d7;
+   color: #ffffff;
+   padding: 0.3em 0.6em;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.highlight:hover {
+   background-color: #324075;
+}
+
+.social-icon img {
+   height: 40px;
+   width: auto;
+   transition: transform 0.3s ease;
+}
+
+.social-icon:hover img {
+   transform: scale(1.1);
+   filter: brightness(0.8);
+}
